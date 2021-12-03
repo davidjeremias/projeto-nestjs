@@ -24,8 +24,7 @@
 
 <div align="center">
   <a href="http://www.passportjs.org/"><img src="https://www.passportjs.org/images/PassportJS.svg" width="160"></a>
-  [![passport banner](http://cdn.auth0.com/img/passport-banner-github.png)](http://passportjs.org)
-  <p align="center"> 
+  <p align="center">
     [![Build](https://travis-ci.org/jaredhanson/passport.svg?branch=master)](https://travis-ci.org/jaredhanson/passport)
     [![Coverage](https://coveralls.io/repos/jaredhanson/passport/badge.svg?branch=master)](https://coveralls.io/r/jaredhanson/passport)
   </p>
