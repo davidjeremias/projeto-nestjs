@@ -10,7 +10,6 @@
 </p>
 </div>
 <br>
-<br>
 
 # TypeScript
 [TypeScript](https://www.typescriptlang.org/) is a language for application-scale JavaScript.
