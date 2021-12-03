@@ -45,6 +45,7 @@
 
 # Swagger UI Express
 This module allows you to serve auto-generated [swagger-ui](https://swagger.io/tools/swagger-ui/) generated API docs from express, based on a `swagger.json` file. The result is living documentation for your API hosted from your API server via a route.
+
 ![Statements](https://img.shields.io/badge/Coverage-89.87%25-yellow.svg)
 ![Branches](https://img.shields.io/badge/Coverage-78.57%25-red.svg)
 ![Functions](https://img.shields.io/badge/Coverage-91.67%25-brightgreen.svg)
