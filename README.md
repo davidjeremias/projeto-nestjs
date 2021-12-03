@@ -9,6 +9,16 @@
     <a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
 </p>
 </div>
+
+# TypeScript
+[TypeScript](https://www.typescriptlang.org/) is a language for application-scale JavaScript.
+
+[![GitHub Actions CI](https://github.com/microsoft/TypeScript/workflows/CI/badge.svg)](https://github.com/microsoft/TypeScript/actions?query=workflow%3ACI)
+[![Devops Build Status](https://dev.azure.com/typescript/TypeScript/_apis/build/status/Typescript/node10)](https://dev.azure.com/typescript/TypeScript/_build?definitionId=7)
+[![npm version](https://badge.fury.io/js/typescript.svg)](https://www.npmjs.com/package/typescript)
+[![Downloads](https://img.shields.io/npm/dm/typescript.svg)](https://www.npmjs.com/package/typescript)
+
+
 <br>
 <br>
 <div align="center">
