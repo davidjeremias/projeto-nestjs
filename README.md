@@ -15,7 +15,7 @@
   <a href="http://typeorm.io/"><img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="160"></a>
   <p align="center">TypeORM is an ORM that can run in NodeJS <a href="http://nodejs.org" target="_blank">Node.js</a>. TypeORM is highly influenced by other ORMs, such as Hibernate</p>
   <p align="center">
-    <a href="https://www.npmjs.com/package/typeorm" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+    <a href="https://app.circleci.com/pipelines/github/typeorm/typeorm"><img src="https://circleci.com/gh/typeorm/typeorm/tree/master.svg?style=shield"></a>
     <a href="https://badge.fury.io/js/typeorm"><img src="https://badge.fury.io/js/typeorm.svg"></a>
     <a href="https://codecov.io/gh/typeorm/typeorm"><img alt="Codecov" src="https://img.shields.io/codecov/c/github/typeorm/typeorm.svg"></a>
     <a href="https://join.slack.com/t/typeorm/shared_invite/zt-uu12ljeb-OH_0086I379fUDApYJHNuw"><img src="https://img.shields.io/badge/chat-on%20slack-blue.svg"></a>
