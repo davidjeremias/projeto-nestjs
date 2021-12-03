@@ -1,6 +1,6 @@
 <div align="center"> 
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+  <p align="center"><a href="https://nestjs.com/" target="_blank">NestJS </a>a progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
   <p align="center">
     <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
     <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
@@ -13,7 +13,7 @@
 <br>
 <div align="center">
   <a href="http://typeorm.io/"><img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="160"></a>
-  <p align="center">TypeORM is an ORM that can run in NodeJS <a href="http://nodejs.org" target="_blank">Node.js</a>. TypeORM is highly influenced by other ORMs, such as Hibernate</p>
+  <p align="center"><a href="https://typeorm.io/#/" target="_blank">TypeORM</a> is an ORM that can run in NodeJS <a href="http://nodejs.org" target="_blank">Node.js</a>. TypeORM is highly influenced by other ORMs, such as Hibernate</p>
   <p align="center">
     <a href="https://app.circleci.com/pipelines/github/typeorm/typeorm"><img src="https://circleci.com/gh/typeorm/typeorm/tree/master.svg?style=shield"></a>
     <a href="https://badge.fury.io/js/typeorm"><img src="https://badge.fury.io/js/typeorm.svg"></a>
@@ -25,9 +25,11 @@
 <br>
 <div align="center">
   <a href="http://www.passportjs.org/"><img src="https://www.passportjs.org/images/PassportJS.svg" width="160"></a>
+  <p align="center"><a href="http://www.passportjs.org/" target="_blank">Passport</a> is authentication middleware for <a href="http://nodejs.org" target="_blank">Node.js</a></p>
   <p align="center">
-    [![Build](https://travis-ci.org/jaredhanson/passport.svg?branch=master)](https://travis-ci.org/jaredhanson/passport)
-    [![Coverage](https://coveralls.io/repos/jaredhanson/passport/badge.svg?branch=master)](https://coveralls.io/r/jaredhanson/passport)
+    <a href="https://coveralls.io/github/jaredhanson/passport"><img alt="Codecov" src="https://coveralls.io/repos/jaredhanson/passport/badge.svg?branch=master"></a>
+    <a href="https://travis-ci.org/github/jaredhanson/passport"><img src="https://travis-ci.org/jaredhanson/passport.svg?branch=master"></a>
+  </p>
   </p>
 </div>
 
