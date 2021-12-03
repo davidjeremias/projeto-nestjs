@@ -22,7 +22,7 @@
 <br>
 <br>
 
-## Jest
+# Jest
 <div>
  <p>Delightful JavaScript Testing</p>
   <p>
