@@ -15,7 +15,27 @@
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
-
+<div align="center">
+  <a href="http://typeorm.io/">
+    <img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="492" height="228">
+  </a>
+  <br>
+  <br>
+	<a href="https://app.circleci.com/pipelines/github/typeorm/typeorm">
+		<img src="https://circleci.com/gh/typeorm/typeorm/tree/master.svg?style=shield">
+	</a>
+	<a href="https://badge.fury.io/js/typeorm">
+		<img src="https://badge.fury.io/js/typeorm.svg">
+	</a>
+    <a href="https://codecov.io/gh/typeorm/typeorm">
+        <img alt="Codecov" src="https://img.shields.io/codecov/c/github/typeorm/typeorm.svg">
+    </a>
+	<a href="https://join.slack.com/t/typeorm/shared_invite/zt-uu12ljeb-OH_0086I379fUDApYJHNuw">
+		<img src="https://img.shields.io/badge/chat-on%20slack-blue.svg">
+	</a>
+  <br>
+  <br>
+</div>
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
