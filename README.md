@@ -20,7 +20,6 @@
 [![Downloads](https://img.shields.io/npm/dm/typescript.svg)](https://www.npmjs.com/package/typescript)
 
 <br>
-<br>
 
 # Jest
 <div>
