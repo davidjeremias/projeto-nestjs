@@ -18,7 +18,7 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 <div align="center">
   <a href="http://typeorm.io/">
-    <img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="160" height="228">
+    <img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="160">
   </a>
   <br>
   <br>
