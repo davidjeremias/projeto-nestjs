@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  sql.data:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: dev_sql
+    expose:
+      - 1433
+    ports:
+      - 1433:1433
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: yourStrong(!)Password
+      MSSQL_PID: Express
+    volumes:
+      - systemdbs:/var/opt/mssql
+      - userdbs:/var/opt/sqlserver
+
+volumes:
+  systemdbs:
+  userdbs:
+    
