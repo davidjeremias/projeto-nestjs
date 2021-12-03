@@ -14,8 +14,6 @@
 <div align="center">
   <a href="http://typeorm.io/"><img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="160"></a>
   <p align="center">TypeORM is an ORM that can run in NodeJS <a href="http://nodejs.org" target="_blank">Node.js TypeORM is highly influenced by other ORMs, such as Hibernate</a></p>
-  <br>
-  <br>
 	<a href="https://app.circleci.com/pipelines/github/typeorm/typeorm">
 		<img src="https://circleci.com/gh/typeorm/typeorm/tree/master.svg?style=shield">
 	</a>
