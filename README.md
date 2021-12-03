@@ -9,8 +9,8 @@
     <a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
 </p>
 </div>
-
-
+<br>
+<br>
 <div align="center">
   <a href="http://typeorm.io/"><img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="160"></a>
   <p align="center">TypeORM is an ORM that can run in NodeJS <a href="http://nodejs.org" target="_blank">Node.js</a>. TypeORM is highly influenced by other ORMs, such as Hibernate</p>
@@ -21,7 +21,8 @@
     <a href="https://join.slack.com/t/typeorm/shared_invite/zt-uu12ljeb-OH_0086I379fUDApYJHNuw"><img src="https://img.shields.io/badge/chat-on%20slack-blue.svg"></a>
   </p>
 </div>
-
+<br>
+<br>
 <div align="center">
   <a href="http://www.passportjs.org/"><img src="https://www.passportjs.org/images/PassportJS.svg" width="160"></a>
   <p align="center">
