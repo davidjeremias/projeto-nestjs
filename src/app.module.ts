@@ -5,13 +5,16 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
-import { TokenModule } from './token/token.module';
 
 @Module({
   imports: [
     UsersModule,
-    TokenModule,
-    ConfigModule.forRoot({isGlobal: true}),
+    AuthModule,
+    ConfigModule.forRoot({
+      isGlobal: true,
+      //envFilePath: `${process.cwd()}/config/env/${process.env.NODE_ENV}.env`,
+      //load: [configuration] 
+    }),
     TypeOrmModule.forRoot({
       type: 'mssql',
       host: process.env.MSSQL_HOST,
@@ -26,12 +29,11 @@ import { TokenModule } from './token/token.module';
       options: { 
         encrypt: false
       },
-      migrations: ['dist/db/migration/*{.ts,.js}'],
+      migrations: ['dist/src/db/migration/*{.ts,.js}'],
       cli: {
         migrationsDir: 'src/db/migration'
       }
-    }),
-    AuthModule
+    })
   ],
   controllers: [AppController],
   providers: [AppService],

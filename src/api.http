@@ -1,5 +1,5 @@
 ### GetToken
-POST http://localhost:3000/api/auth/login
+POST http://localhost:3000/api/auth/token
 Content-Type: application/json
 
 {
@@ -9,7 +9,7 @@ Content-Type: application/json
 
 
 ### Created
-POST http://localhost:3000/api/users
+POST http://localhost:3000/api/user
 Content-Type: application/json
 
 {
@@ -20,24 +20,24 @@ Content-Type: application/json
 
 
 ### FindOne
-GET http://localhost:3000/api/users/1
+GET http://localhost:3000/api/user/1
 
 
 ### FindOneByUsername
-GET http://localhost:3000/api/users/username/david.jeremias@platformbuilder.io
+GET http://localhost:3000/api/user/username/david.jeremias@platformbuilder.io
 
 
 ### FindAll
-GET http://localhost:3000/api/users
+GET http://localhost:3000/api/user
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRhdmlkLmplcmVtaWFzQHBsYXRmb3JtYnVpbGRlci5pbyIsInN1YiI6MSwiaWF0IjoxNjM4NDc3ODIwLCJleHAiOjE2Mzg0NzgxMjB9.0J_s5iJ-C4ZYqjI1SbKDDmsdrc214wqxlea1Aqac-dQ
 
 
 ### FindAllPageable
-GET http://localhost:3000/api/users/pageable?offset=0&limit=10
+GET http://localhost:3000/api/user/pageable?offset=0&limit=10
 
 
 
-PATCH http://localhost:3000/api/users/1
+PATCH http://localhost:3000/api/user/1
 Content-Type: application/json
 
 {

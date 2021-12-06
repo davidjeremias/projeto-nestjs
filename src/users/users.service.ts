@@ -12,15 +12,16 @@ export class UsersService {
 
 constructor(
   @InjectRepository(User)
-  @TransactionRepository(User)
+  //@TransactionRepository(User)
   private readonly userRepository: Repository<User>
 ) {}
 
-  @Transaction({isolation: 'SERIALIZABLE'})
+  //@Transaction({isolation: 'SERIALIZABLE'})
   create(createUserDto: CreateUserDto): Promise<CreateUserDto> {
     let user = new User();
     user.name = createUserDto.name;
     user.username = createUserDto.username;
+    console.log(createUserDto.password);
     user.password = bcrypt.hashSync(createUserDto.password, 8);
     return this.userRepository.save(user);
   }

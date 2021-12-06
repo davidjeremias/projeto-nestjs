@@ -64,9 +64,32 @@ This module allows you to serve auto-generated [swagger-ui](https://swagger.io/t
 ![Functions](https://img.shields.io/badge/Coverage-91.67%25-brightgreen.svg)
 ![Lines](https://img.shields.io/badge/Coverage-89.74%25-yellow.svg)
 
+# Instruções para executar localmente a Api
+1- Subir container de banco de dados SQL Server 2019 Express
+
+```bash
+# Navegar até a pasta "project-nestjs/bin/mssql/" onde contém o docker-compose.yaml
+$ cd /project-nestjs/bin/mssql/
+```
+
+```bash
+# Criar container de banco
+$ docker-compose up -d
+
+2- Criar o banco de dados "apidb"
+
+# Segurança da Api
+1- A Api utiliza o framework Passport de seguraça, sendo necessário o envio das credenciais username e password no body da requisição
+e a resposta é um JWT.
+  - http://localhost:3000/api/auth/token
+
+# Acessar a documentação da Api localmente(OpenAPI)
+1- http://localhost:3000/api
+
+
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Api de solução Credit as Service.
 
 ## Installation
 
@@ -99,17 +122,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).

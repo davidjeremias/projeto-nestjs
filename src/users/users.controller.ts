@@ -2,30 +2,33 @@ import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards, Request, 
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { ApiTags } from '@nestjs/swagger';
+import { ApiBearerAuth, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { DeleteResult, UpdateResult } from 'typeorm';
 import { AuthGuard } from '@nestjs/passport';
 import { PageableDto } from 'src/dto/pageable.dto';
 
-@ApiTags('Users')
-@Controller('users')
+@ApiBearerAuth()
+@ApiTags('User')
+@Controller('user')
 export class UsersController {
   constructor(
     private readonly usersService: UsersService
   ) {}
 
   @Post()
+  @ApiResponse({ status: 201, type: CreateUserDto })
   create(@Body() createUserDto: CreateUserDto): Promise<CreateUserDto> {
     return this.usersService.create(createUserDto);
   }
 
-  //@UseGuards(AuthGuard('jwt'))
+  @UseGuards(AuthGuard('jwt'))
   @Get()
+  @ApiResponse({ status: 201, type: CreateUserDto, isArray: true })
   findAll(): Promise<CreateUserDto[]> {
     return this.usersService.findAll();
   }
 
-  //@UseGuards(AuthGuard('jwt'))
+  @UseGuards(AuthGuard('jwt'))
   @Get('pageable')
   findAllPageable(@Query() pageable: PageableDto): Promise<CreateUserDto[]> {
     return this.usersService.findAllPageable(pageable);
